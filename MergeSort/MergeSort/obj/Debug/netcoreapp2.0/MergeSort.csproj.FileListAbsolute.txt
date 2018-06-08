@@ -1,0 +1,11 @@
+/Users/onrolll/Developer/algorithms/MergeSort/MergeSort/obj/Debug/netcoreapp2.0/MergeSort.csprojResolveAssemblyReference.cache
+/Users/onrolll/Developer/algorithms/MergeSort/MergeSort/obj/Debug/netcoreapp2.0/MergeSort.csproj.CoreCompileInputs.cache
+/Users/onrolll/Developer/algorithms/MergeSort/MergeSort/obj/Debug/netcoreapp2.0/MergeSort.AssemblyInfoInputs.cache
+/Users/onrolll/Developer/algorithms/MergeSort/MergeSort/obj/Debug/netcoreapp2.0/MergeSort.AssemblyInfo.cs
+/Users/onrolll/Developer/algorithms/MergeSort/MergeSort/bin/Debug/netcoreapp2.0/MergeSort.deps.json
+/Users/onrolll/Developer/algorithms/MergeSort/MergeSort/bin/Debug/netcoreapp2.0/MergeSort.runtimeconfig.json
+/Users/onrolll/Developer/algorithms/MergeSort/MergeSort/bin/Debug/netcoreapp2.0/MergeSort.runtimeconfig.dev.json
+/Users/onrolll/Developer/algorithms/MergeSort/MergeSort/bin/Debug/netcoreapp2.0/MergeSort.dll
+/Users/onrolll/Developer/algorithms/MergeSort/MergeSort/bin/Debug/netcoreapp2.0/MergeSort.pdb
+/Users/onrolll/Developer/algorithms/MergeSort/MergeSort/obj/Debug/netcoreapp2.0/MergeSort.dll
+/Users/onrolll/Developer/algorithms/MergeSort/MergeSort/obj/Debug/netcoreapp2.0/MergeSort.pdb
