@@ -6,7 +6,7 @@ namespace RadixSortBase10
     {
         static void Main(string[] args)
         {
-			int[] arr = new int[] { 43, 22, 678, 12, 31, 66, 87, 2, 7 };
+			int[] arr = new int[] { 43, 22, 12, 100, 31, 66, 87, 2, 7 };
 
 			RadixSort.Sort(arr);
 
