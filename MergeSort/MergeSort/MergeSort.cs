@@ -37,7 +37,7 @@ namespace MergeSort
             
 			// Initial indexes of leftSubarray & rightSubarray
 			int indexOfLeftSubarray = 0;
-            int indexOfRightSubarray = 0;
+			int indexOfRightSubarray = 0;
 
 			// Initial index of arr
 			int indexOfInitialArray = start;
