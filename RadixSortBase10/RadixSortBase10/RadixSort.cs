@@ -2,7 +2,7 @@
 namespace RadixSortBase10
 {
 	// This implementation makes sense for very large # of input values;
-    public static class RadixSort
+	public static class RadixSort
     {
         public static void Sort(int[] arr)
 		{
