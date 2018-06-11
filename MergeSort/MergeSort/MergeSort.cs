@@ -3,72 +3,71 @@ namespace MergeSort
 {
     public static class MergeSort
     {
-        public static void Sort(int[] arr, int l, int r)
+        public static void Sort(int[] arr, int start, int end)
 		{
-			if(l<r)
+			if(start<end)
 			{
 				// Find the middle point
-				int m = (l + r) / 2;
+				int middlePoint = (start + end) / 2;
 
 				// Sort both havles
-				Sort(arr, l, m);
-				Sort(arr, m + 1, r);
+				Sort(arr, start, middlePoint);
+				Sort(arr, middlePoint + 1, end);
 
 				// Merge sorted halves
-				Merge(arr, l, m, r);
+				Merge(arr, start, middlePoint, end);
 			}
 		}
 
-		private static void Merge(int[] arr, int l, int m, int r)
+		private static void Merge(int[] arr, int start, int middlePoint, int end)
 		{
 			// Find the sizes of the subarrays to be merged;
-			int sL = m - l + 1;
-			int sR = r - m;
+			int sizeOfLeftSubarray = middlePoint - start + 1;
+			int sizeOfRightSubarray = end - middlePoint;
             
-            // Initialize empty subarrays of appropriate sizes
-			int[] L = new int[sL];
-			int[] R = new int[sR];
+			// Initialize empty subarrays of appropriate sizes
+			int[] leftSubarray = new int[sizeOfLeftSubarray];
+			int[] rightSubarray = new int[sizeOfRightSubarray];
 
-            // Copy corresponding data to subarrays
-            for (int i = 0; i < sL; i++)
-				L[i] = arr[l + i];
-			for (int i = 0; i < sR; i++)
-				R[i] = arr[m + 1 + i];
-
-			// Initial indexes of L & R
-			int j = 0;
-			int n = 0;
+			// Copy corresponding data to subarrays
+			for (int i = 0; i < sizeOfLeftSubarray; i++)
+				leftSubarray[i] = arr[start + i];
+			for (int i = 0; i < sizeOfRightSubarray; i++)
+				rightSubarray[i] = arr[middlePoint + 1 + i];
+            
+			// Initial indexes of leftSubarray & rightSubarray
+			int indexOfLeftSubarray = 0;
+            int indexOfRightSubarray = 0;
 
 			// Initial index of arr
-			int k = l;
+			int indexOfInitialArray = start;
             
-            while (j < sL & n < sR)
+			while (indexOfLeftSubarray < sizeOfLeftSubarray & indexOfRightSubarray < sizeOfRightSubarray)
 			{
-                if (L[j] < R[n])
+				if (leftSubarray[indexOfLeftSubarray] < rightSubarray[indexOfRightSubarray])
 				{
-					arr[k] = L[j];
-					j++;
+					arr[indexOfInitialArray] = leftSubarray[indexOfLeftSubarray];
+					indexOfLeftSubarray++;
 				}
 				else
 				{
-					arr[k] = R[n];
-					n++;
+					arr[indexOfInitialArray] = rightSubarray[indexOfRightSubarray];
+					indexOfRightSubarray++;
 				}
-				k++;
+				indexOfInitialArray++;
 			}
-
-            // Copy remaining elements from one of the subarrays
-			while(j<sL)
+			// Copy remaining elements from one of the subarrays
+			while(indexOfLeftSubarray<sizeOfLeftSubarray)
 			{
-				arr[k] = L[j];
-				j++;
-				k++;
+				arr[indexOfInitialArray] = leftSubarray[indexOfLeftSubarray];
+				indexOfLeftSubarray++;
+				indexOfInitialArray++;
 			}
-			while(n < sR)
+			while(indexOfRightSubarray < sizeOfRightSubarray)
 			{
-				arr[k] = R[n];
-				n++;
-				k++;
+				arr[indexOfInitialArray] = rightSubarray[indexOfRightSubarray];
+				indexOfRightSubarray++;
+				indexOfInitialArray++;
 			}
 		}
 	}
