@@ -7,9 +7,9 @@ namespace RadixSortBase10
 		{
 			// Get the max number in the array, in order to know how many digits it contains
 			int max = GetMax(arr);
-
+            
 			// Do a counting sort of the array, going from least to most significant digit, using the exponent;
-            for (int exp = 1; max/exp > 0; exp *= 10)
+			for (int exp = 1; max/exp > 0; exp *= 10)
 				CountingSort(arr, exp); 
 			
 		}
@@ -23,20 +23,20 @@ namespace RadixSortBase10
 			// -> result = 5; -> increment count[4];
 			int[] count = new int[] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,};
 
-            for (int i = 0; i < arr.Length; i++)
+			for (int i = 0; i < arr.Length; i++)
 				count[(arr[i] / exp) % 10] += 1;
 
-            for (int i = 1; i < 10; i++)
+			for (int i = 1; i < 10; i++)
 				count[i] += count[i - 1];
-            
+
 			// Build the output array;
 			for (int i = arr.Length - 1; i >= 0; i--)
 			{
 				output[count[(arr[i] / exp) % 10] - 1] = arr[i];
 				count[(arr[i] / exp) % 10]--;
 			}
-             
-            for (int i = 0; i < arr.Length; i++)
+
+			for (int i = 0; i < arr.Length; i++)
 				arr[i] = output[i];
 			
 		}
@@ -44,13 +44,16 @@ namespace RadixSortBase10
 		private static int GetMax(int[] arr)
 		{
 			if (arr == null)
-                throw new ArgumentNullException();
+				throw new ArgumentNullException();
+
 			int max = arr[0];
-            for (int i = 1; i < arr.Length; i++)
+
+			for (int i = 1; i < arr.Length; i++)
 			{
 				if (arr[i] > max)
 					max = arr[i];
 			}
+
 			return max;
 		}
 	}
