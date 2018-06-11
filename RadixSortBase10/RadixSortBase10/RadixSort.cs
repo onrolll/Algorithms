@@ -5,10 +5,10 @@ namespace RadixSortBase10
 	// Time complexity (n + k) * d;
 	// n - # input values;
 	// k - max number from input values (base 10);
-    // d - # of digits in k 
+	// d - # of digits in k;
 	public static class RadixSort
-    {
-        public static void Sort(int[] arr)
+	{
+		public static void Sort(int[] arr)
 		{
 			// Get the max number in the array, in order to know how many digits it contains
 			int max = GetMax(arr);
