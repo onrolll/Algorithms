@@ -45,6 +45,7 @@ namespace RadixSortBase10
 				count[(arr[i] / exp) % 10]--;
 			}
 
+			// Rearrange array arr;
 			for (int i = 0; i < arr.Length; i++)
 				arr[i] = output[i];
 		}
