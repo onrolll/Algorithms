@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{4CACBBAC-BF59-4FE0-8168-ECCC6764CD84}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="InsertionSort/InsertionSort.cs">
     <Files>
-      <File FileName="InsertionSort/Program.cs" Line="17" Column="1" />
+      <File FileName="InsertionSort/Program.cs" Line="15" Column="6" />
       <File FileName="InsertionSort/InsertionSort.cs" Line="19" Column="75" />
     </Files>
   </MonoDevelop.Ide.Workbench>
