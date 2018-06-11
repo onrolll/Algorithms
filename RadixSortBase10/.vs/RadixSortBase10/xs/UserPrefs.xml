@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{17470CCD-D2C9-41FE-B4DE-2C8599EBDDCC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RadixSortBase10/RadixSort.cs">
+    <Files>
+      <File FileName="RadixSortBase10/Program.cs" Line="14" Column="10" />
+      <File FileName="RadixSortBase10/RadixSort.cs" Line="54" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.RadixSortBase10 PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
