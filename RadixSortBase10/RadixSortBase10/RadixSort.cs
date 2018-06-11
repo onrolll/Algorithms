@@ -2,6 +2,10 @@
 namespace RadixSortBase10
 {
 	// This implementation makes sense for very large # of input values;
+	// Time complexity (n + k) * d;
+	// n - # input values;
+	// k - max number from input values (base 10);
+    // d - # of digits in k 
 	public static class RadixSort
     {
         public static void Sort(int[] arr)
