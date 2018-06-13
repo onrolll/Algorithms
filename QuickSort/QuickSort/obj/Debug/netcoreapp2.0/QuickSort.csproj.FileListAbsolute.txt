@@ -1,0 +1,11 @@
+/Users/onrolll/Developer/algorithms/QuickSort/QuickSort/obj/Debug/netcoreapp2.0/QuickSort.csprojResolveAssemblyReference.cache
+/Users/onrolll/Developer/algorithms/QuickSort/QuickSort/obj/Debug/netcoreapp2.0/QuickSort.csproj.CoreCompileInputs.cache
+/Users/onrolll/Developer/algorithms/QuickSort/QuickSort/obj/Debug/netcoreapp2.0/QuickSort.AssemblyInfoInputs.cache
+/Users/onrolll/Developer/algorithms/QuickSort/QuickSort/obj/Debug/netcoreapp2.0/QuickSort.AssemblyInfo.cs
+/Users/onrolll/Developer/algorithms/QuickSort/QuickSort/bin/Debug/netcoreapp2.0/QuickSort.deps.json
+/Users/onrolll/Developer/algorithms/QuickSort/QuickSort/bin/Debug/netcoreapp2.0/QuickSort.runtimeconfig.json
+/Users/onrolll/Developer/algorithms/QuickSort/QuickSort/bin/Debug/netcoreapp2.0/QuickSort.runtimeconfig.dev.json
+/Users/onrolll/Developer/algorithms/QuickSort/QuickSort/bin/Debug/netcoreapp2.0/QuickSort.dll
+/Users/onrolll/Developer/algorithms/QuickSort/QuickSort/bin/Debug/netcoreapp2.0/QuickSort.pdb
+/Users/onrolll/Developer/algorithms/QuickSort/QuickSort/obj/Debug/netcoreapp2.0/QuickSort.dll
+/Users/onrolll/Developer/algorithms/QuickSort/QuickSort/obj/Debug/netcoreapp2.0/QuickSort.pdb
