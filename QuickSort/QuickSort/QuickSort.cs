@@ -27,9 +27,9 @@ namespace QuickSort
 			// Initializing the index of where the pivot should end up at;
 			int lastNumberSmallerThanPivotIndex = left - 1;
 
-            for (int i = left; i < right; i++)
+			for (int i = left; i < right; i++)
 			{
-                if(arr[i] <= pivot)
+				if(arr[i] <= pivot)
 				{
 					lastNumberSmallerThanPivotIndex++;
 
