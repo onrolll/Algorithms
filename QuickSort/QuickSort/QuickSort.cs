@@ -12,9 +12,10 @@ namespace QuickSort
 		{
 			if (left < right)
 			{
+				// Move elements smaller than or equal to pivot to its left side, and bigger elements to its right;
 				int pivotIndex = Partition(arr, left, right);
                 
-				// Recursively sort the elements before and after the pivot;e
+				// Recursively sort the elements before and after the pivot;
 				Sort(arr, left, pivotIndex - 1);
 				Sort(arr, pivotIndex + 1, right);
 			}

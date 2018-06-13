@@ -1,9 +1,20 @@
 ﻿<Properties StartupConfiguration="{721E00CE-AA99-4D1A-AFCF-734B96731A2B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="QuickSort/QuickSort.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="QuickSort/Program.cs">
     <Files>
-      <File FileName="QuickSort/Program.cs" Line="14" Column="3" />
-      <File FileName="QuickSort/QuickSort.cs" Line="42" Column="4" />
+      <File FileName="QuickSort/Program.cs" Line="9" Column="4" />
+      <File FileName="QuickSort/QuickSort.cs" Line="15" Column="104" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="QuickSort" expanded="True">
+            <Node name="QuickSort" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
