@@ -1,0 +1,11 @@
+/Users/onrolll/Developer/HeapSort/HeapSort/obj/Debug/netcoreapp2.0/HeapSort.csprojResolveAssemblyReference.cache
+/Users/onrolll/Developer/HeapSort/HeapSort/obj/Debug/netcoreapp2.0/HeapSort.csproj.CoreCompileInputs.cache
+/Users/onrolll/Developer/HeapSort/HeapSort/obj/Debug/netcoreapp2.0/HeapSort.AssemblyInfoInputs.cache
+/Users/onrolll/Developer/HeapSort/HeapSort/obj/Debug/netcoreapp2.0/HeapSort.AssemblyInfo.cs
+/Users/onrolll/Developer/HeapSort/HeapSort/bin/Debug/netcoreapp2.0/HeapSort.deps.json
+/Users/onrolll/Developer/HeapSort/HeapSort/bin/Debug/netcoreapp2.0/HeapSort.runtimeconfig.json
+/Users/onrolll/Developer/HeapSort/HeapSort/bin/Debug/netcoreapp2.0/HeapSort.runtimeconfig.dev.json
+/Users/onrolll/Developer/HeapSort/HeapSort/bin/Debug/netcoreapp2.0/HeapSort.dll
+/Users/onrolll/Developer/HeapSort/HeapSort/bin/Debug/netcoreapp2.0/HeapSort.pdb
+/Users/onrolll/Developer/HeapSort/HeapSort/obj/Debug/netcoreapp2.0/HeapSort.dll
+/Users/onrolll/Developer/HeapSort/HeapSort/obj/Debug/netcoreapp2.0/HeapSort.pdb

@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{F5EEF958-B66D-462D-811A-0CB6A589D399}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HeapSort.cs">
+    <Files>
+      <File FileName="HeapSort.cs" Line="32" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HeapSort" expanded="True">
+            <Node name="HeapSort" expanded="True">
+              <Node name="HeapSort.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.HeapSort PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
