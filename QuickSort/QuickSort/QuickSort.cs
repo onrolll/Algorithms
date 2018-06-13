@@ -37,7 +37,7 @@ namespace QuickSort
 					// Swap the current element with the element after the last smaller than pivot element;
 					// in other words: swap curent element with the first bigger than pivot element;
 					int temp = arr[i];
-                    arr[i] = arr[indexOfLastSmallerThanPivotNumber];
+					arr[i] = arr[indexOfLastSmallerThanPivotNumber];
 					arr[indexOfLastSmallerThanPivotNumber] = temp;
 				}
 			}
