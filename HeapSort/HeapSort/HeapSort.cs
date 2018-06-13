@@ -11,7 +11,9 @@ namespace HeapSort
 			
 			for (int i = arr.Length - 1; i >= 0; i--)
 			{
+				// Moving largest element to end of array;
 				Swap(arr, 0, i);
+				// Heapifying reduced heap;
 				Heapify(arr, i, 0);
 			}
 		}

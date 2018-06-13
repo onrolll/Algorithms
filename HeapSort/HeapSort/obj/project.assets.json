@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/onrolll/Developer/HeapSort/HeapSort/HeapSort.csproj",
+      "projectUniqueName": "/Users/onrolll/Developer/algorithms/HeapSort/HeapSort/HeapSort.csproj",
       "projectName": "HeapSort",
-      "projectPath": "/Users/onrolll/Developer/HeapSort/HeapSort/HeapSort.csproj",
+      "projectPath": "/Users/onrolll/Developer/algorithms/HeapSort/HeapSort/HeapSort.csproj",
       "packagesPath": "/Users/onrolll/.nuget/packages/",
-      "outputPath": "/Users/onrolll/Developer/HeapSort/HeapSort/obj",
+      "outputPath": "/Users/onrolll/Developer/algorithms/HeapSort/HeapSort/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
