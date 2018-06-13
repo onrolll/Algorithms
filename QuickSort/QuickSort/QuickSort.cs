@@ -25,29 +25,29 @@ namespace QuickSort
 		{
 			int pivot = arr[right];
 
-			// Initializing the index of where the pivot should end up at;
-			int lastNumberSmallerThanPivotIndex = left - 1;
+			// Initializing the index of where the pivot should end up after;
+			int indexOfLastSmallerThanPivotNumber = left - 1;
 
 			for (int i = left; i < right; i++)
 			{
 				if(arr[i] <= pivot)
 				{
-					lastNumberSmallerThanPivotIndex++;
+					indexOfLastSmallerThanPivotNumber++;
 
 					// Swap the current element with the element after the last smaller than pivot element;
 					// in other words: swap curent element with the first bigger than pivot element;
 					int temp = arr[i];
-					arr[i] = arr[lastNumberSmallerThanPivotIndex];
-					arr[lastNumberSmallerThanPivotIndex] = temp;
+                    arr[i] = arr[indexOfLastSmallerThanPivotNumber];
+					arr[indexOfLastSmallerThanPivotNumber] = temp;
 				}
 			}
 
 			// Situate the pivot at the correct position, by swapping it with the element at that position
-			int swap = arr[lastNumberSmallerThanPivotIndex + 1];
+			int swap = arr[indexOfLastSmallerThanPivotNumber + 1];
 			arr[right] = swap;
-			arr[lastNumberSmallerThanPivotIndex + 1] = pivot;
+			arr[indexOfLastSmallerThanPivotNumber + 1] = pivot;
 
-			return lastNumberSmallerThanPivotIndex + 1;
+			return indexOfLastSmallerThanPivotNumber + 1;
 		}
 	}
 }

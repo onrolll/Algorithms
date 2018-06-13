@@ -1,8 +1,7 @@
-﻿<Properties StartupConfiguration="{721E00CE-AA99-4D1A-AFCF-734B96731A2B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="QuickSort/QuickSort.cs">
+﻿<Properties StartupConfiguration="{7D7C089F-6D61-4614-B1BC-34D0A851BD61}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="QuickSort.cs">
     <Files>
-      <File FileName="QuickSort/Program.cs" Line="9" Column="4" />
-      <File FileName="QuickSort/QuickSort.cs" Line="29" Column="50" />
+      <File FileName="QuickSort.cs" Line="37" Column="65" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
