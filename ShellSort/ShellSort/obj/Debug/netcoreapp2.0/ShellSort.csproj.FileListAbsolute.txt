@@ -1,0 +1,11 @@
+/Users/onrolll/Developer/algorithms/ShellSort/ShellSort/bin/Debug/netcoreapp2.0/ShellSort.deps.json
+/Users/onrolll/Developer/algorithms/ShellSort/ShellSort/bin/Debug/netcoreapp2.0/ShellSort.runtimeconfig.json
+/Users/onrolll/Developer/algorithms/ShellSort/ShellSort/bin/Debug/netcoreapp2.0/ShellSort.runtimeconfig.dev.json
+/Users/onrolll/Developer/algorithms/ShellSort/ShellSort/bin/Debug/netcoreapp2.0/ShellSort.dll
+/Users/onrolll/Developer/algorithms/ShellSort/ShellSort/bin/Debug/netcoreapp2.0/ShellSort.pdb
+/Users/onrolll/Developer/algorithms/ShellSort/ShellSort/obj/Debug/netcoreapp2.0/ShellSort.csprojResolveAssemblyReference.cache
+/Users/onrolll/Developer/algorithms/ShellSort/ShellSort/obj/Debug/netcoreapp2.0/ShellSort.csproj.CoreCompileInputs.cache
+/Users/onrolll/Developer/algorithms/ShellSort/ShellSort/obj/Debug/netcoreapp2.0/ShellSort.AssemblyInfoInputs.cache
+/Users/onrolll/Developer/algorithms/ShellSort/ShellSort/obj/Debug/netcoreapp2.0/ShellSort.AssemblyInfo.cs
+/Users/onrolll/Developer/algorithms/ShellSort/ShellSort/obj/Debug/netcoreapp2.0/ShellSort.dll
+/Users/onrolll/Developer/algorithms/ShellSort/ShellSort/obj/Debug/netcoreapp2.0/ShellSort.pdb
