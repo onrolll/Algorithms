@@ -445,11 +445,6 @@ class AVL(object):
       lca.list(low_key, high_key, result)
     return result
 
-
-
-
-
-
 class TracedRangeIndex(AVL):
   """Augments RangeIndex to build a trace for the visualizer."""
   
